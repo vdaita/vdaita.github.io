@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html data-theme="business">
+    <head>
+        <link rel="icon" type="image/png" href="lltlogo.png"/>
+        <title>Long Lake Technologies</title>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.46.0/dist/full.css" rel="stylesheet"     type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div>
+            <!-- Hero -->
+            <div class="hero min-h-screen bg-base-200">
+              <div class="hero-content text-center">
+                <div class="max-w-md">
+                  <h1 class="text-5xl font-bold">Long Lake Technologies</h1>
+                  <p class="py-6">We are a software development and web/app design agency.</p>
+                  <button type="button" class="btn btn-primary" onclick="smoothScroll(document.getElementById('projects'))">Learn more</button>
+                  <button class="btn btn-primary"><a href="#contact">Contact me</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div id="projects">
+              <div class="flex pt-14 flex-col content-center items-center space-y-14">
+                  <!-- Click for a Cause -->
+                  <div class="card w-1/2 p-8 bg-base-200 shadow-xl items-start">
+                    <figure>
+                      <img src="https://placeimg.com/400/400/arch" alt="Album"/>
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Click for a Cause</h2>
+                      <div class="badge badge-lg">React Native</div>
+                      <p>Click the button to listen on Spotiwhy app.</p>
+                    </div>
+                  </div>
+
+                  <!-- Wave Driver -->
+                  <div class="card w-1/2 p-16 bg-base-200 shadow-xl items-start">
+                    <figure>
+                      <img src="https://placeimg.com/400/400/arch" alt="Album"/>
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Wave Driver</h2>
+                      <div class="badge badge-lg">Android</div>
+                      <div class="badge badge-lg">App Design</div>
+                      <p>Click the button to listen on Spotiwhy app.</p>
+                    </div>
+                  </div>
+
+                  <!-- Solocoin -->
+                  <div class="card w-1/2 p-16 bg-base-200 shadow-xl items-start">
+                    <figure>
+                      <img src="https://placeimg.com/400/400/arch" alt="Album"/>
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Wave Driver</h2>
+                      <div class="badge badge-lg">Android</div>
+                      <p>Click the button to listen on Spotiwhy app.</p>
+                    </div>
+                  </div>
+
+                  <!-- YSML -->
+                  <div class="card w-1/2 p-16 bg-base-200 shadow-xl items-start">
+                    <figure>
+                      <img src="https://placeimg.com/400/400/arch" alt="Album"/>
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Yale Smart Medicine Lab</h2>
+                      <div class="badge badge-lg">React Native</div>
+                      <div class="badge badge-lg">App Design</div>
+                      <p>Click the button to listen on Spotiwhy app.</p>
+                    </div>
+                  </div>
+
+                  <!-- Masky -->
+                  <div class="card w-1/2 p-16 bg-base-200 shadow-xl items-start">
+                    <figure>
+                      <img src="https://placeimg.com/400/400/arch" alt="Album"/>
+                    </figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Masky</h2>
+                      <div class="badge badge-lg">Vue.js</div>
+                      <div class="badge badge-lg">Flask</div>
+                      <div class="badge badge-lg">App Design</div>
+
+                      <p>Click the button to listen on Spotiwhy app.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="#contact">
+            </div>
+        </div>
+
+        <script>
+          window.smoothScroll = function(target) {
+              var scrollContainer = target;
+              do { //find scroll container
+                  scrollContainer = scrollContainer.parentNode;
+                  if (!scrollContainer) return;
+                  scrollContainer.scrollTop += 1;
+              } while (scrollContainer.scrollTop == 0);
+
+              var targetY = 0;
+              do { //find the top of target relatively to the container
+                  if (target == scrollContainer) break;
+                  targetY += target.offsetTop;
+              } while (target = target.offsetParent);
+
+              scroll = function(c, a, b, i) {
+                  i++; if (i > 30) return;
+                  c.scrollTop = a + (b - a) / 30 * i;
+                  setTimeout(function(){ scroll(c, a, b, i); }, 20);
+              }
+              // start scrolling
+              scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+          }
+        </script>
+    </body>
+</html>
