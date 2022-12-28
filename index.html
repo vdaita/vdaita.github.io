@@ -1,157 +1,82 @@
 <!DOCTYPE html>
-<html data-theme="business">
-    <head>
-        <link rel="icon" type="image/png" href="lltlogo.png"/>
-        <title>Long Lake Technologies</title>
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.46.0/dist/full.css" rel="stylesheet"     type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body>
-        <div>
-            <!-- Hero -->
-            <div class="hero min-h-screen bg-base-200">
-              <div class="hero-content text-center">
-                <div class="max-w-md">
-                  <h1 class="text-5xl font-bold">Long Lake Technologies</h1>
-                  <p class="py-6">We are a frontend development and app design agency.</p>
-                  <button type="button" class="btn btn-primary" onclick="smoothScroll(document.getElementById('projects'))">Learn more</button>
-                  <button class="btn btn-primary" onclick="smoothScroll(document.getElementById('contact'))">Contact us</button>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tricky Mammoth Sepia</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;📱&lt;/text&gt;&lt;/svg&gt;">
+
+    <style>/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.bottom-0{bottom:0px}.right-0{right:0px}.top-0{top:0px}.left-0{left:0px}.z-50{z-index:50}.col-span-4{grid-column:span 4 / span 4}.mx-auto{margin-left:auto;margin-right:auto}.mb-3{margin-bottom:0.75rem}.mb-6{margin-bottom:1.5rem}.mt-2{margin-top:0.5rem}.mt-10{margin-top:2.5rem}.mb-2{margin-bottom:0.5rem}.box-content{box-sizing:content-box}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.h-full{height:100%}.h-10{height:2.5rem}.h-4{height:1rem}.h-auto{height:auto}.h-8{height:2rem}.h-1{height:0.25rem}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-10{width:2.5rem}.w-4{width:1rem}.w-8{width:2rem}.max-w-7xl{max-width:80rem}.max-w-5xl{max-width:64rem}.max-w-6xl{max-width:72rem}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-start{justify-content:flex-start}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-8{gap:2rem}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded{border-radius:0.25rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity))}.bg-none{background-image:none}.bg-cover{background-size:cover}.p-3{padding:0.75rem}.p-10{padding:2.5rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.px-0{padding-left:0px;padding-right:0px}.py-20{padding-top:5rem;padding-bottom:5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-12{padding-top:3rem;padding-bottom:3rem}.px-4{padding-left:1rem;padding-right:1rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.pb-10{padding-bottom:2.5rem}.text-left{text-align:left}.text-center{text-align:center}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-base{font-size:1rem;line-height:1.5rem}.font-extrabold{font-weight:800}.font-bold{font-weight:700}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.leading-none{line-height:1}.tracking-normal{letter-spacing:0em}.tracking-tight{letter-spacing:-0.025em}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.placeholder-gray-400::placeholder{--tw-placeholder-opacity:1;color:rgb(156 163 175 / var(--tw-placeholder-opacity))}.opacity-100{opacity:1}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-100{transition-duration:100ms}.duration-150{transition-duration:150ms}.duration-200{transition-duration:200ms}.ease-out{transition-timing-function:cubic-bezier(0, 0, 0.2, 1)}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-4:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-blue-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(37 99 235 / var(--tw-ring-opacity))}.focus\:ring-opacity-50:focus{--tw-ring-opacity:0.5}@media (min-width: 640px){.sm\:grid-cols-8{grid-template-columns:repeat(8, minmax(0, 1fr))}.sm\:rounded-xl{border-radius:0.75rem}.sm\:px-8{padding-left:2rem;padding-right:2rem}.sm\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 768px){.md\:text-center{text-align:center}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}.md\:tracking-tight{letter-spacing:-0.025em}}@media (min-width: 1024px){.lg\:my-0{margin-top:0px;margin-bottom:0px}.lg\:w-6\/12{width:50%}.lg\:max-w-3xl{max-width:48rem}.lg\:grid-cols-12{grid-template-columns:repeat(12, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}.lg\:p-16{padding:4rem}.lg\:px-24{padding-left:6rem;padding-right:6rem}.lg\:px-16{padding-left:4rem;padding-right:4rem}.lg\:text-7xl{font-size:4.5rem;line-height:1}}@media (min-width: 1280px){.xl\:w-7\/12{width:58.333333%}.xl\:w-5\/12{width:41.666667%}.xl\:p-0{padding:0px}.xl\:p-24{padding:6rem}.xl\:px-0{padding-left:0px;padding-right:0px}.xl\:text-6xl{font-size:3.75rem;line-height:1}}@media (min-width: 1536px){.\32xl\:static{position:static}.\32xl\:mt-2{margin-top:0.5rem}.\32xl\:h-32{height:8rem}.\32xl\:p-0\.5{padding:0.125rem}.\32xl\:p-0{padding:0px}.\32xl\:py-0\.5{padding-top:0.125rem;padding-bottom:0.125rem}.\32xl\:py-2{padding-top:0.5rem;padding-bottom:0.5rem}.\32xl\:px-1{padding-left:0.25rem;padding-right:0.25rem}.\32xl\:py-1\.5{padding-top:0.375rem;padding-bottom:0.375rem}.\32xl\:py-0{padding-top:0px;padding-bottom:0px}.\32xl\:py-1{padding-top:0.25rem;padding-bottom:0.25rem}.\32xl\:text-left{text-align:left}.\32xl\:text-6xl{font-size:3.75rem;line-height:1}.\32xl\:text-sm{font-size:0.875rem;line-height:1.25rem}.\32xl\:text-4xl{font-size:2.25rem;line-height:2.5rem}.\32xl\:text-base{font-size:1rem;line-height:1.5rem}.\32xl\:font-semibold{font-weight:600}.\32xl\:font-normal{font-weight:400}.\32xl\:text-blue-900{--tw-text-opacity:1;color:rgb(30 58 138 / var(--tw-text-opacity))}.\32xl\:text-slate-600{--tw-text-opacity:1;color:rgb(71 85 105 / var(--tw-text-opacity))}}</style>    <link rel="stylesheet" href="">
+</head>
+<body>
+    <section class="h-auto bg-white">
+    <div class="px-10 py-24 mx-auto max-w-7xl xl:p-0">
+        <div class="w-full mx-auto text-left md:text-center">
+            <h1 class="mb-6 text-5xl font-extrabold leading-none max-w-5xl mx-auto tracking-normal text-gray-900 sm:text-6xl md:text-6xl lg:text-7xl md:tracking-tight 2xl:text-blue-900">Long Lake Technologies&nbsp;<div class="2xl:text-slate-600 2xl:text-6xl 2xl:font-semibold">&nbsp;a rapid frontend development agency</div></h1>
+            <p class="px-0 mb-6 text-lg text-gray-600 md:text-xl lg:px-24">we help iterate through designs and develop robust apps in sectors ranging from e-commerce to medtech</p><p></p>
+        </div>
+    </div>
+</section><section class="py-20 bg-white xl:p-0 2xl:p-0.5">
+    <div class="container max-w-6xl mx-auto 2xl:p-0"><h2 class="text-4xl font-bold tracking-tight text-center 2xl:text-left">What have we done?</h2><p class="mt-2 text-lg text-center text-gray-600 2xl:text-left"></p><div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0 tails-relative"><div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 bg-gray-100 sm:rounded-xl 2xl:p-0" data-rounded="rounded-xl" data-rounded-max="rounded-full"><div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M14 3v4a1 1 0 0 0 1 1h4"></path><path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" class=""></path><circle cx="6" cy="14" r="3" class=""></circle><path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5"></path></svg></div><h4 class="text-xl font-medium text-gray-700">React Native</h4><p class="text-base text-center text-gray-500 2xl:text-sm">developed a medical risk-prediction app for a prestigious university research lab</p><p></p></div><div class="flex flex-col items-center justify-between px-8 py-12 bg-gray-100 sm:rounded-xl col-span-4 2xl:p-0" data-rounded="rounded-xl" data-rounded-max="rounded-full"><div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M18 8a3 3 0 0 1 0 6"></path><path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5"></path><path d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8"></path></svg></div><h4 class="text-xl font-medium text-gray-700">Android Development</h4><p class="text-base text-center text-gray-500 2xl:text-sm">collecting and reporting sensor data using embedded systems for real-time monitoring</p></div><div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 bg-gray-100 sm:rounded-xl 2xl:p-0" data-rounded="rounded-xl" data-rounded-max="rounded-full"><div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" class=""></polyline><line x1="12" y1="12" x2="20" y2="7.5"></line><line x1="12" y1="12" x2="12" y2="21"></line><line x1="12" y1="12" x2="4" y2="7.5"></line><line x1="16" y1="5.25" x2="8" y2="9.75" class=""></line></svg></div><h4 class="text-xl font-medium text-gray-700">React.js</h4><p class="text-base text-center text-gray-500 2xl:text-sm">designed and develop a hackathon-winning comprehensive job portal&nbsp;</p><div></div><p></p><p></p></div><div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 bg-gray-100 sm:rounded-xl 2xl:p-0" data-rounded="rounded-xl" data-rounded-max="rounded-full"><div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 9l3 3l-3 3"></path><line x1="13" y1="15" x2="16" y2="15" class=""></line><rect x="3" y="4" width="18" height="16" rx="2" class=""></rect></svg></div><h4 class="text-xl font-medium text-gray-700">Vue.js</h4><p class="text-base text-center text-gray-500 2xl:text-sm">developed and released an audio data collection platform for a medtech startup&nbsp;</p></div><div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 bg-gray-100 sm:rounded-xl 2xl:p-0" data-rounded="rounded-xl" data-rounded-max="rounded-full"><div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="9.5" y1="11" x2="9.51" y2="11"></line><line x1="14.5" y1="11" x2="14.51" y2="11"></line><path d="M9.5 15a3.5 3.5 0 0 0 5 0"></path><path d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" class=""></path></svg></div><h4 class="text-xl font-medium text-gray-700">Writing</h4><p class="text-base text-center text-gray-500 2xl:text-sm">wrote technical articles published in Javascript in Plain English and Python in Plain English</p></div><div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 bg-gray-100 sm:rounded-xl 2xl:p-0" data-rounded="rounded-xl" data-rounded-max="rounded-full"><div class="p-3 text-white bg-blue-500 rounded-full" data-primary="blue-500" data-rounded="rounded-full">
+<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="15" y1="5" x2="15" y2="7"></line><line x1="15" y1="11" x2="15" y2="13"></line><line x1="15" y1="17" x2="15" y2="19"></line><path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2"></path></svg></div><h4 class="text-xl font-medium text-gray-700">Machine Learning</h4><p class="text-base text-center text-gray-500 2xl:text-sm">used TensorFlow Mobile &amp; TF.js to deploy cost-effective image classification models to Android &amp; React Native</p></div></div></div>
+</section><section class="w-full bg-white 2xl:p-0.5">
+
+    <div class="mx-auto max-w-7xl">
+        <div class="flex flex-col lg:flex-row">
+            <div class="relative w-full bg-cover lg:w-6/12 xl:w-7/12">
+                <div class="relative flex flex-col w-full h-full px-10 lg:px-16 lg:my-0 2xl:h-32 2xl:static 2xl:py-0.5">
+                    <div class="flex flex-col items-start tracking-tight lg:max-w-3xl 2xl:text-left 2xl:py-2">
+                        <div class="relative">
+                            <p class="mb-2 font-medium text-gray-700 uppercase"></p>
+                            <h2 class="text-5xl font-bold text-gray-900 xl:text-6xl 2xl:text-left 2xl:text-4xl">Contact us</h2>
+                        </div>
+                        <h2 class="font-bold text-gray-900">Let us help you develop faster.</h2><div class="2xl:px-1 2xl:text-slate-600"><div class=""><span style="color: rgb(71 85 105 / var(--tw-text-opacity)); letter-spacing: -0.025em; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;;" class=""></span></div></div>
+                    </div>
                 </div>
-              </div>
             </div>
 
-
-
-            <div id="projects" class="min-h-screen flex flex-row items-center pl-24">
-              <div class="carousel h-3/4 w-1/2">
-                <div id="wave" class="carousel-item card w-full min-h-screen bg-base-100 shadow-xl">
-                  <figure><img width="200" src="wave.png" alt="Wave Driver"/>
-                          </figure>
-                  <div class="card-body">
-                    <h2 class="card-title">Wave Driver</h2>
-                    <p>Wave Driver was an app that allowed people to send their location to others automatically, predating features from Apple or Google.
-                      It used the Android Geolocation API and SMS to allow users to send a specified passcode to a phone number to get that phone's location.
-                    The intended audience was for bus drivers, who used to arrive at the school in waves.</p>
-                    <div class="flex justify-center w-full py-2 gap-2">
-                      <a href="#wave" class="btn btn-xs">Wave Driver</a>
-                      <a href="#cfac" class="btn btn-xs">Click for a Cause</a>
-                      <a href="#solocoin" class="btn btn-xs">Solocoin</a>
-                      <a href="#ysml" class="btn btn-xs">Yale</a>
-                      <a href="#masky" class="btn btn-xs">Masky</a>
-                    </div>
-                  </div>
+              <div class="w-full bg-white lg:w-6/12 xl:w-5/12">
+                  <div class="flex flex-col items-start justify-start w-full h-full p-10 lg:p-16 xl:p-24 2xl:p-0">
+                        <div class="relative w-full mt-10 space-y-8">
+                            <form action="https://getform.io/f/d4ee8427-23aa-4145-a6c9-b79b68fd6d7c" method="POST">
+                              <div class="relative">
+                                  <label class="font-medium text-gray-900">Name</label>
+                                  <input type="text" name="name" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" data-primary="blue-600" data-rounded="rounded-lg">
+                              </div>
+                              <div class="relative">
+                                  <label class="font-medium text-gray-900">Email</label>
+                                  <input type="text" name="email" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" data-primary="blue-600" data-rounded="rounded-lg">
+                              </div>
+                              <div class="relative">
+                                  <label class="font-medium text-gray-900">Message</label>
+                                  <textarea type="text" name="message" class="block w-full px-4 py-4 mt-2 text-xl placeholder-gray-400 bg-gray-200 rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-600 focus:ring-opacity-50" data-primary="blue-600" data-rounded="rounded-lg"></textarea>
+                              </div>
+                              <br>
+                              <div class="relative">
+                                  <button type="submit" class="pt-4 inline-block w-full px-5 py-4 text-lg font-medium text-center text-white transition duration-200 bg-blue-600 rounded-lg hover:bg-blue-700 ease 2xl:py-1.5" data-primary="blue-600" data-rounded="rounded-lg">
+                                    Send
+                                  </button>
+                              </div>
+                            </form>
+                        </div>
                 </div>
-                <div id="cfac" class="carousel-item card w-full min-h-screen bg-base-100 shadow-xl">
-                  <div class="flex flex-row">
-                    <iframe width="560" height="400" src="https://www.youtube.com/embed/ajU33c515u8?start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div>
 
-                  <div class="card-body">
-                    <h2 class="card-title">Click for a Cause</h2>
-                    <p>Click for a Cause was an app that allowed customers to find businesses that supported their social causes. It was developed using React Native and was developed for (and won) the Congressional App Challenge. </p>
-                    <div class="flex justify-center w-full py-2 gap-2">
-                      <a href="#wave" class="btn btn-xs">Wave Driver</a>
-                      <a href="#cfac" class="btn btn-xs">Click for a Cause</a>
-                      <a href="#solocoin" class="btn btn-xs">Solocoin</a>
-                      <a href="#ysml" class="btn btn-xs">Yale</a>
-                      <a href="#masky" class="btn btn-xs">Masky</a>
-                    </div>
-                  </div>
-                </div>
-                <div id="solocoin" class="carousel-item card min-h-screen w-full bg-base-100 shadow-xl">
-                  <figure><img width="200" src="sc.png" alt="Solocoin"/></figure>
-                  <div class="card-body">
-                    <h2 class="card-title">Solocoin</h2>
-                    <p>Solocoin was an app that rewarded users for staying at home during COVID-19 spikes. I was responsible for Android development, using Services and the Geolocation API to periodically check for user location while keeping battery usage low.</p>
-                    <div class="card-actions justify-end">
-                      <button class="btn btn-primary"><a href="https://devpost.com/software/solocoin">Check it out!</a></button>
-                    </div>
-                    <div class="flex justify-center w-full py-2 gap-2">
-                      <a href="#wave" class="btn btn-xs">Wave Driver</a>
-                      <a href="#cfac" class="btn btn-xs">Click for a Cause</a>
-                      <a href="#solocoin" class="btn btn-xs">Solocoin</a>
-                      <a href="#ysml" class="btn btn-xs">Yale</a>
-                      <a href="#masky" class="btn btn-xs">Masky</a>
-                    </div>
-                  </div>
-                </div>
-                <div id="ysml" class="carousel-item card w-full min-h-screen bg-base-100 shadow-xl">
-                  <div class="card-body">
-                    <h2 class="card-title">Yale Smart Medicine Lab</h2>
-                    <p>I am currently developing a mobile health app at the Yale Smart Medicine Lab.</p>
-                    <div class="card-actions justify-end">
-                      <button class="btn btn-primary">Watch</button>
-                    </div>
-                    <div class="flex justify-center w-full py-2 gap-2">
-                      <a href="#wave" class="btn btn-xs">Wave Driver</a>
-                      <a href="#cfac" class="btn btn-xs">Click for a Cause</a>
-                      <a href="#solocoin" class="btn btn-xs">Solocoin</a>
-                      <a href="#ysml" class="btn btn-xs">Yale</a>
-                      <a href="#masky" class="btn btn-xs">Masky</a>
-                    </div>
-                  </div>
-                </div>
-                <div id="masky" class="carousel-item card w-full min-h-screen bg-base-100 shadow-xl">
-                  <figure>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/A8CnDZ0Y0CY?start=59" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </figure>
-                  <div class="card-body">
-                    <h2 class="card-title">Masky</h2>
-                    <p>Masky was an app designed to allow public places to check whether or not people inside their establishment were wearing masks or not. This app was developed with Vue.js and Flask. </p>
-                    <div class="card-actions justify-end">
-                      <button class="btn btn-primary"><a href="https://devpost.com/software/masky-k2luf7">Chcek it out!</a></button>
-                    </div>
-                    <div class="flex justify-center w-full py-2 gap-2">
-                      <a href="#wave" class="btn btn-xs">Wave Driver</a>
-                      <a href="#cfac" class="btn btn-xs">Click for a Cause</a>
-                      <a href="#solocoin" class="btn btn-xs">Solocoin</a>
-                      <a href="#ysml" class="btn btn-xs">Yale</a>
-                      <a href="#masky" class="btn btn-xs">Masky</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div class="flex place-content-center">
-                <h1 class="text-3xl font-bold pl-24">Projects</h1>
-              </div>
-            </div>
 
-            <div id="contact" >
-              <form class="flex pt-14 flex-col content-center items-center space-y-14 pb-14 hero min-h-screen bg-base-200" action="https://getform.io/f/d4ee8427-23aa-4145-a6c9-b79b68fd6d7c" method="POST">
-                  <h1 class="text-3xl font-bold">Contact us</h1>
-                  <input type="text" class="input input-bordered w-full max-w-xs" placeholder="Name" name="name">
-                  <input type="email" class="input input-bordered w-full max-w-xs" placeholder="Email" name="email">
-                  <textarea class="textarea textarea-bordered max-w-xs w-full" placeholder="Message" name="message"></textarea>
 
-                  <button class="btn btn-outline" type="submit">Send</button>
-              </form>
+
             </div>
         </div>
+    </div>
 
-        <script>
-          window.smoothScroll = function(target) {
-              var scrollContainer = target;
-              do { //find scroll container
-                  scrollContainer = scrollContainer.parentNode;
-                  if (!scrollContainer) return;
-                  scrollContainer.scrollTop += 1;
-              } while (scrollContainer.scrollTop == 0);
+</section>
 
-              var targetY = 0;
-              do { //find the top of target relatively to the container
-                  if (target == scrollContainer) break;
-                  targetY += target.offsetTop;
-              } while (target = target.offsetParent);
-
-              scroll = function(c, a, b, i) {
-                  i++; if (i > 30) return;
-                  c.scrollTop = a + (b - a) / 30 * i;
-                  setTimeout(function(){ scroll(c, a, b, i); }, 20);
-              }
-              // start scrolling
-              scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
-          }
-        </script>
-    </body>
+    <script src="//unpkg.com/alpinejs" defer></script>
+</body>
 </html>
